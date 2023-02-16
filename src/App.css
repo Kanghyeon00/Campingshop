@@ -1,38 +1,210 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+/* font-family: 'Nanum Pen Script', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script&display=swap");
+/* font-family: 'Do Hyeon', sans-serif; */
+
+.logoContainer {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid rgb(194, 191, 191);
+}
+
+.info {
+  width: 100%;
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: end;
+  margin-top: 10px;
+}
+
+.info:hover {
+  cursor: pointer;
+}
+
+.info .sign-up {
+  padding: 10px;
+}
+
+.info .sign-in {
+  padding: 10px;
+}
+
+.info .material-symbols-outlined {
+  padding: 10px;
+}
+
+.logo {
+  width: 12%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.nav {
+  width: 100%;
+  background-color: rgb(56, 55, 55);
+  justify-content: space-around;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  color: rgb(228, 228, 228);
+  font-size: 30px;
+  font-family: "Do Hyeon", sans-serif;
+  transition: 0.3s;
+}
+
+.navbar-menu li:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.d-block {
+  width: 300px;
+  height: 730px;
+}
+
+.message {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 30px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(206, 206, 206);
+  font-family: "Do Hyeon", sans-serif;
+}
+
+.product {
+  text-align: center;
+  font-family: "Do Hyeon", sans-serif;
+  margin-top: 50px;
+}
+
+.product img {
+  width: 400px;
+  cursor: pointer;
+}
+
+.detail {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.detail .material-symbols-outlined {
+  margin-left: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.detail img {
+  width: 400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.description {
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.cart {
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.num {
+  margin: 7px;
+}
+
+.cart button {
+  font-size: 10px;
+}
+
+.orderContainer {
+  background-color: rgb(56, 55, 55);
+  height: 65px;
+  text-align: center;
+}
+
+.orderContainer button {
+  margin-top: 14px;
+}
+
+.wrap {
+  width: 100%;
+  height: 1000px;
+}
+
+.loginBox {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.loginBox button {
+  margin-top: 25px;
+  padding: 5px 108px 5px 108px;
+  border-radius: 150px;
+}
+
+.loginBox p {
+  margin-top: 15px;
+}
+
+.loginBox input {
+  padding: 5px 40px 5px 40px;
+  border-style: none;
+  border: 2px solid rgb(196, 196, 196);
+  border-radius: 150px;
+}
+
+.loginBox .content {
+  margin-top: 25%;
+  border: 2px solid rgb(196, 196, 196);
+  padding: 50px;
+}
+
+.loginBox span:hover {
+  cursor: pointer;
+  border-bottom: 2px solid rgb(194, 194, 194);
+}
+
+.createBox {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.createBox .createContent {
+  margin-top: 15%;
+  border: 2px solid rgb(196, 196, 196);
+  padding: 50px;
+}
+
+.createBox p {
+  margin-top: 15px;
+}
+
+.createBox input {
+  padding: 5px 40px 5px 40px;
+  border-style: none;
+  border: 2px solid rgb(196, 196, 196);
+  border-radius: 150px;
+}
+
+.radio {
+  margin-top: 20px;
+}
+
+.createBox button {
+  margin-top: 20px;
 }
